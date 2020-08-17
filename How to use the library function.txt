@@ -1,0 +1,10 @@
+1. First include the library in your sketch.
+example:-	#include<LCD.h>
+
+2. Create a lcd object which will have the i2c address as the parameter.
+example:-	lcd display(0x20); //display is the object and 0x20 is the i2c address in hexadecimal.
+
+3. Now you can access the library functions.
+
+initiate(col, row);// initialize the the device with the required settings.
+endDisplay(); // disconnect the device and terminates the wire functionalities.
