@@ -1,1 +1,2 @@
-# myLCD
+# MYLCD
+this the first project.
